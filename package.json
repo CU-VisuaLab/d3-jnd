@@ -30,7 +30,8 @@
     "postpublish": "git push && git push --tags && zip -j build/d3-jnd.zip -- LICENSE README.md build/d3-jnd.js build/d3-jnd.min.js"
   },
   "dependencies": {
-    "d3-color": "1"
+    "d3-color": "1",
+    "d3-shape": "1"
   },
   "devDependencies": {
     "eslint": "3",
